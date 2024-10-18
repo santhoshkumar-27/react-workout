@@ -1,5 +1,5 @@
-import Header from './components/Header/Headers';
-import CoreConcepts from './components/CoreConcepts';
+import Header from './components/Header/Header';
+import CoreConcepts from './components/CoreConcepts/CoreConcepts';
 
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <Header />
       <main>
         <CoreConcepts />
-
       </main>
     </div>
   );

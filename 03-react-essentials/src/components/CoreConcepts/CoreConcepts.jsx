@@ -1,5 +1,5 @@
-import { CORE_CONCEPTS } from '../data';
-
+import { CORE_CONCEPTS } from '../../data';
+import './CoreConcepts.css'
 function CoreConcept({ title, description, image }) {
     return (
         <li>
