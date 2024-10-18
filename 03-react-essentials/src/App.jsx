@@ -1,5 +1,6 @@
 import Header from './components/Header/Header';
 import CoreConcepts from './components/CoreConcepts/CoreConcepts';
+import TabButton from './components/Tabs/TabButton';
 
 
 function App() {
@@ -8,6 +9,12 @@ function App() {
       <Header />
       <main>
         <CoreConcepts />
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabButton>Components</TabButton> {/* components compositions */}
+          </menu>
+        </section>
       </main>
     </div>
   );
